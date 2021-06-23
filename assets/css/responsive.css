@@ -1,0 +1,67 @@
+/*don vi se de la "em" thay vi px de tranh loi tren cac browser*/
+/*pc*/
+@media(min-width:64em){
+    #header .menu-mobile-btn{
+        display: none;
+    }
+ }
+ /*tablet*/
+ @media ( min-width:46.25em) and (max-width:63.9375em){
+    #header .menu-mobile-btn{
+        display: none;
+    }
+ }
+  /*tablet va mobile*/
+ @media(max-width:63.9375em){
+      .btn{
+          padding: 15px 16px;
+      }
+      .contact-form .form-control {
+          padding: 15px;
+      }
+      #footer .social-list a{
+        padding: 0 4px;
+    }
+    .contact-info {
+        line-height: 1.8;
+    }
+}
+ /*mobile*/
+ @media (max-width: 46.1875em) {
+
+    #nav{
+        display:block;
+    }
+    #nav >li{
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .hearder-searchbar{
+        display: none;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 65%;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 16px !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+ }

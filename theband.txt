@@ -1,0 +1,5 @@
+1.phân tích The Band: 
+ header chưa navigation và một searchbar
+ slider chưa các ảnh tour biểu diễn
+2 content
+3 footer: contact 
